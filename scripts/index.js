@@ -97,7 +97,9 @@ var db;
                     continue;
                 } else if (data.progress !== 'completed') {
                     continue;
-                }
+                } else if (data.name.endsWith('NOS')) {
+                    continue;
+				}
 
                 // 自己訂別名
                 data.rarityName = rarityMap[data.rarity];
