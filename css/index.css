@@ -155,6 +155,16 @@ body {
     border-radius: 0;
 }
 
+.table th {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#355258+0,353a41+100 */
+	background: #355258; /* Old browsers */
+	background: -moz-linear-gradient(top,  #355258 0%, #353a41 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #355258 0%,#353a41 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #355258 0%,#353a41 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#355258', endColorstr='#353a41',GradientType=0 ); /* IE6-9 */
+	text-shadow: 1px 1px black;
+}
+
 /* ¦^³»ºÝ */
 #backToTop {
     position: fixed;
